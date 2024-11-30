@@ -2,6 +2,15 @@
 
 This is a simple store API written in Go using the Gin framework. It allows you to create, read, update, and delete products and categories.
 
+## Installation
+
+1. Clone the repository.
+2. Run `go mod download` to download the dependencies.
+3. Set the environment variable `DATABASE_URL` with your database connection string.
+4. Run `go run main.go` to start the server.
+
+> **Note:** The server will start on port `8080` by default.
+
 ## Endpoints
 
 - `GET /` - Returns a welcome message.
