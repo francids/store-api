@@ -11,6 +11,7 @@ func SetupRouter() *gin.Engine {
 
 	r.GET("/", controllers.Home)
 	r.GET("/ping", controllers.Ping)
+	r.GET("/products", controllers.GetProducts)
 
 	return r
 }
