@@ -15,3 +15,4 @@ This is a simple store API written in Go using the Gin framework. It allows you 
 
 - `GET /` - Returns a welcome message.
 - `GET /ping` - Returns a pong message.
+- `GET /products` - Returns a list of all products.
